@@ -1,11 +1,11 @@
-public class FirstProgram {
-    public static void main(String[] args) {
-        //display greeting in console window
-        System.out.println("Hello,World !");
-        System.out.println("This is my first program");
-        System.out.println("I am on module ST4003CEM");
-        System.out.print("Hello,World ! \nThis is my first program\nI am on module ST4003CEM");
-    }
+// public class FirstProgram {
+//     public static void main(String[] args) {
+//         //display greeting in console window
+//         System.out.println("Hello,World !");
+//         System.out.println("This is my first program");
+//         System.out.println("I am on module ST4003CEM");
+//         System.out.print("Hello,World ! \nThis is my first program\nI am on module ST4003CEM");
+//     }
     
 // }
 // A "quoted" String is
@@ -22,7 +22,7 @@ public class FirstProgram {
 
 // '' is not the same as "
 
-// public class FirstProgram {
+// public class FirstProgra{
 //     public static void main(String[] args){
 //         System.out.println("A \"quoted\" String is\n\'much\' better if you learn\nthe rules of \"escape\" sequences.\nAlso,\"\" represents an empty\nString. Don\'t forget to use :\"!instead of \'is not the same as"); 
 // }
@@ -51,7 +51,7 @@ public class FirstProgram {
 //             System.out.println();
 //         }
 //     }        
-}
+// }
 
 
 // In Java, both ' (single quote) and " (double quote) are used to denote characters or strings,
