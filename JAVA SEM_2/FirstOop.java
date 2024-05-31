@@ -60,3 +60,37 @@ class Rectangle{
         return 2 *(length + breadth);
     }
 }
+// Make attributes: name, brand, year, color
+    // Make a function modify() that takes new color and set to old color
+    // Make a function expriy() that returns 100 added to year
+    // Make a function start() that prints(name is starting)
+    // Make a function stop() that print(name, brand is stopping)
+    // Make a function detail()that print(name, brand, color and year)
+    // Make 3 Object of Car
+    // Start all 3 Object
+    // Stop only 1st object
+    // Modify 2nd car to Green Color
+    // Print the expiry of 3rd Object
+    // Print detail of all 3 Object
+class Car{
+    String name,brand,colour;
+    int year;
+    void modify(String newColour){
+        colour =newColour;
+    }
+    int expiry(){
+        return 100 +year;
+    
+    }
+    void start(){
+        System.out.println(name+"is stsrting");
+    }
+    void stop(){
+        System.out.println(name +","+ brand + " is stopping");
+
+    }
+    void detail(){
+        System.out.println(name+"," + brand +","+ colour+ " and "+year);
+    }
+
+}
