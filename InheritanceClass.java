@@ -40,4 +40,53 @@ class BrotherClass extends ParentClass{
     void living (){
         System.out.println(lastname + " " + address);
     }
+
+    class Animal{
+        String name;
+        void speaks(){
+            System.out.println(name);
+        }
+    }
+    
+    class Mammal extends Animal{
+        String breed;
+        void fur(){
+            System.out.println(breed + " " + name);
+        }
+    }
+    
+    class reptile extends Animal{
+        String eggs;
+        void sheds(){
+            System.out.println(eggs + " " + name);
+        }
+    }
+    
+    class cat extends Mammal{
+        String origin;
+        void meows(){
+            System.out.println(name + " " + breed + " " + origin);
+        }
+    }
+    
+    class Dog extends Mammal{
+        String country;
+        void barko(){
+            System.out.println(name + " " + breed + " " + country);
+        }
+    }
+    
+    class Labrador extends Dog{
+        String color;
+        void play(){
+            System.out.println(country + " " + color);
+        }
+    }
+    
+    class GermanShepard extends Dog{
+        String spot;
+        void guard(){
+            System.out.println(country + " " + spot);
+        }
+    }
 }

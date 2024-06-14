@@ -1,41 +1,60 @@
-// package Week 1 ;
-
-// public class Hello{
-//     public static void main(String[]args){
-//         System.out.println();
+// //Question No.1
+// public class Hello {
+//     public static void main(String[] args) {
+//         System.out.println("Hello World!");
 //     }
-
-
-// 2.Extend/Modify the above program to print two additional lines:
-
-// This is my first program
-
-// I am on module ST4003CEM
-
-// System.out.print (not println) and produces the same output.
-
-public class Hello {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.print("This is my first program\n");
-        System.out.print("I am on module ST4003CEM\n");
-    }
 // }
 
-// public class Pattern {
+//Question No.2
+// Hello.java
+// public class Hello {
 //     public static void main(String[] args) {
-//         int rows = 4; // Number of rows in the pattern
+//         System.out.print("Hello World!\nThis is my first program\nI am on module ST4003CEM\n");
+//     }
+// }
 
-//         // Outer loop for the number of rows
-//         for (int i = 1; i <= rows; i++) {
-//             // Inner loop for printing * in each column
+//Question No.3
+// EscapeSequences.java
+// public class Hello {
+//     public static void main(String[] args) {
+//         System.out.println("A \"quoted\" String is\n'much' better if you learn\nthe rules of \"escape sequences.\"\nAlso, \"\" represents an empty\nString. Don't forget: use \\\"\ninstead of \" !");
+//         System.out.println("'' is not the same as \"");
+//     }
+// }
+
+//Question No.4
+// public class Hello {
+//     public static void main(String[] args) {
+//         for (int i = 1; i <= 4; i++) {
 //             for (int j = 1; j <= i; j++) {
 //                 System.out.print("*");
 //             }
-//             // Move to the next line after each row is printed
 //             System.out.println();
-    //     }
-    // }
-}
+//         }
+//     }
 // }
+
+//Question No.5
+// Pattern2.java
+// public class Hello {
+//     public static void main(String[] args) {
+//         for (int i = 1; i <= 4; i++) {
+//             for (int j = 1; j <= 9; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+//Question No.6
+// MultiLineOutput.java
+// public class Hello {
+//     public static void main(String[] args) {
+//         System.out.println("A well-formed Java program has a main method with { and } braces.\n\nA System.out.println statement has ( and ) and usually a String that starts and ends with a \" character.\n(But we type \\\" instead!)\nWhat is the difference between\na ' and a \"?  Or between a \" and a \\\"?");
+//     }
+// }
+
+
+
 
